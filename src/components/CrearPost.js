@@ -37,7 +37,6 @@ class CrearPost extends Component {
                 title:'Error',
                 type:'error',
                 text:'Completa todos los campos',
-                
             })
         }else {
             this.props.createPost(post);
